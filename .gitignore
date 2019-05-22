@@ -1,0 +1,31 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+*.pkl
+*.png
+*.npy
+*.data
+*.pyc
+*rbin
+out
+gen
+.idea/inspectionProfiles/
+.idea/vcs.xml
+.idea/workspace.xml
+data/
+models/
+notebooks/
+/Images/
+/Data/
+/Data/*
+/Data
+Data/
+*.*#
+/Logs/
+/Logs/*
+/annovar_input.csv
+/annovar_input.txt
