@@ -14,13 +14,13 @@ display_top = 20
 print_trees = False
 num_patients = 1000
 num_features = 1000
-num_experiment = 1000
+num_experiment = 2
 num_trees = 1000
 feature_frac = 0.5
 linked_snp = [[[102, 1], [877, 2]], [[122, 2], [155, 1]], [[230, 1], [214, 2]], [[245, 1], [256, 1]]]
-path = "/media/avanhilten/HDD1TB/simulations/noise_2_1000/"
-path2 = "/media/avanhilten/HDD1TB/simulations/no_noise_2_1000/"
-simulate = False
+path = "/media/avanhilten/pHDD1TB/Simulations/paircount/simulation_random/1_noise/"
+path2 = "/media/avanhilten/pHDD1TB/Simulations/paircount/simulation_random/1_no_noise"
+simulate = True
 # %% Rewrite Linked SNP in handsome format
 
 linked_snp_only = []

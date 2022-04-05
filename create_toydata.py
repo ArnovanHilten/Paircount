@@ -1,6 +1,4 @@
 import numpy as np
-
-
 # TODo:  Hardy Weinberger, LD
 
 
@@ -69,7 +67,8 @@ def gusev_linked(num_patients=100, num_features=100,
                     random_seed=42,h2 = 0.75, i2 = 0.05 ):
     # type: (int, int, list, int ,int, int) -> tuple
 
-    #TODO:  make fraction
+
+    #TODO:  make fraction, the heritatability of interaction i2 is not correct in the formula?
 
     np.random.seed(random_seed)
     geno = np.zeros([num_patients, num_features])
